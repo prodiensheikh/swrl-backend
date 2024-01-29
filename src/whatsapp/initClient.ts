@@ -10,6 +10,9 @@ export async function initClient() {
   const client = await new Promise<Client>((resolve) => {
     const client = new Client({
       authStrategy: new LocalAuth(),
+      puppeteer: {
+        args: ['--no-sandbox'],
+      }
     });
 
     client.initialize();

@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cors());
 
 connect();
-// initClient();
+initClient();
 app.use(express.json());
 
 app.use("/auth", authRouter);
