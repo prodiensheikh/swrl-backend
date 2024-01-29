@@ -1,0 +1,31 @@
+Assume each meal takes 20 mins to finish.
+When a medicine is prescribe to be taken after food then it needs to be taken immediately after the meal is finished.
+If no time is mentioned then medicine has to be taken immediately after meal.
+If a medicine is prescribed to be twice a day then it means morning and evening.
+If a medicine is prescribed to be taken thrice a day then it means morning, afternoon and evening.
+If a medicine is prescribed to be taken four times a day then it means morning, afternoon, evening and night.
+
+I have been given a prescription as follows:
+1. Tab ciplox500 - 1 tablet twice a day for 5 days after breakfast and dinner
+2. Tab febrex plus or Sinarest  - 1 tablet twice a day after food after breakfast and lunch for 5 days
+3. Tab montek LC one tablet once a day after dinner for 5 days
+4. Syp TusQDx 7.5 ml twice a day
+5. Tab disprin - one tablet to be dissolved in a glass of water and gargle it - three times a day
+
+Based on this, and assuming that I eat my breakfast at 8:30 AM, lunch at 1:30 PM and dinner at 8:30 PM,
+when should I taking the "Tab ciplox500".
+
+Give how many times a day am I supposed to take it and then give valid timestamps for each of the time of the day
+output should be in this format 
+ 
+{
+  "name": "medicine name",
+  "frequency": 4,
+  "timestamps": [
+    "08:30:00",
+    "13:30:00",
+    "20:30:00",
+    "22:30:00"
+  ]
+}
+

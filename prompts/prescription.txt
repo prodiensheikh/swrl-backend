@@ -1,0 +1,19 @@
+Given this prescription
+
+1. Tab ciplox500 - 1 tablet twice a day for 5 days after breakfast and dinner
+2. Tab febrex plus or Sinarest  - 1 tablet twice a day after food after breakfast and lunch for 5 days
+3. Tab montek LC one tablet once a day after dinner for 5 days
+4. Syp TusQDx 7.5 ml twice a day
+5. Tab disprin - one tablet to be dissolved in a glass of water and gargle it - three times a day
+
+For each medicine, generate a reminder to take in a valid RRULE format
+it should be a valid json object with the following fields
+1. medicine name
+2. message
+3. rrule
+
+current start date is 2023-01-26
+the recurrence rule should also reflect till how many days should the medicine be taken.
+the recurrence rule should also reflect the time of the day when the medicine should be taken.
+the maxixmum number of days should be 1 year from the start date.
+assume appropriate times of the day for the medicines when ambiguous.

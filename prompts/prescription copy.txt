@@ -1,0 +1,29 @@
+Given this prescription
+
+1. Tab ciplox500 - 1 tablet twice a day for 5 days after breakfast and dinner
+2. Tab febrex plus or Sinarest  - 1 tablet twice a day after food after breakfast and lunch for 5 days
+3. Tab montek LC one tablet once a day after dinner for 5 days
+4. Syp TusQDx 7.5 ml twice a day
+5. Tab disprin - one tablet to be dissolved in a glass of water and gargle it - three times a day
+
+Each medicine in this prescription can be assigned a time as follows:
+if a medicine needs to be taken in the morning and evening, 
+then its time can be ["7:00 AM", "7:00 PM"]
+
+Each medicine can be assigned a duration as follows:
+if a medicine needs to be taken for 5 days,
+then its duration has to be ["5"]
+
+generate a list of all the medicines mentioned in the prescription.
+Assign a id to each medicine and create a json object with the following structure
+
+{
+  "id": 1,
+  "name": "Ciplox500",
+  "duration": 5,
+  "time": ["7:00 AM", "7:00 PM"]
+}
+
+Make sure to assume the same time for all events in a day, 
+for example, if 2 medicines needs to be taken after breakfast and dinner, 
+then assume that breakfast is at 7:00 AM and dinner is at 7:00 PM for both of them.

@@ -1,0 +1,22 @@
+I am a patient, and my daily routine is as follows,
+breakfast at 8:00 am, lunch at 1:00 pm, and dinner at 8:00 pm.
+
+I have been given a prescription as follows:
+1. Tab ciplox500 - 1 tablet twice a day for 5 days after breakfast and dinner
+2. Tab febrex plus or Sinarest  - 1 tablet twice a day after food after breakfast and lunch for 5 days
+3. Tab montek LC one tablet once a day after dinner for 5 days
+4. Syp TusQDx 7.5 ml twice a day
+5. Tab disprin - one tablet to be dissolved in a glass of water and gargle it - three times a day
+
+Based on this, generate a schedule for me, which will remind me to take my medicines on time.
+
+for example: I have have to take medicines A and B after lunch,
+then the schedule will look like this:
+
+1. 1:00 pm - Reminder to take medicine A, medicine B
+
+Make sure to include all the medicines given in the prescription.
+Each point in the prescription gives information about a particular medicine.
+Be very careful, if a medicine is to be taken two times a day then the schedule should have two reminders for that medicine.
+
+

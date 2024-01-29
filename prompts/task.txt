@@ -1,0 +1,4 @@
+if a task is meant to be performed three times a day for the next 5 days.
+and if today is 26th Jan, 2024. 
+
+identify all the days upto 31st Dec, 2024 on which this task needs to be performed.
